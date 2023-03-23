@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+mat-toolbar {
+    background-color: #0b5080 !important;
+    color: #ffc100 !important;
+}
+
+table {
+    color: #0b5080 !important;
+    background-color: #ffc100 !important;
+}
+
+
+.mdc-data-table__cell, .mdc-data-table__header_cell {
+    color: #0b5080 !important;
+}
+
+.mat-mdc-button {
+    color: #0b5080 !important
+}
